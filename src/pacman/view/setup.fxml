@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1225.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pacman.controller.SetupController">
+   <children>
+      <ImageView fx:id="imgView" fitHeight="600.0" fitWidth="1225.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" />
+      <ColorPicker fx:id="backgroundColorPicker" layoutX="563.0" layoutY="300.0" promptText="Background Color" />
+      <ColorPicker fx:id="wallColorPicker" layoutX="563.0" layoutY="425.0" promptText="Wall Color" />
+      <Button fx:id="backBtn" layoutX="296.0" layoutY="425.0" mnemonicParsing="false" onAction="#toStartPage" text="BACK" />
+      <Text fx:id="testText" layoutX="548.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Background Color" />
+      <Text layoutX="575.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wall Color" />
+   </children>
+</AnchorPane>
